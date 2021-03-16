@@ -1,0 +1,21 @@
+---
+
+# Copyright (C) 2021 Intel Corporation
+# SPDX-License-Identifier: BSD-3-Clause
+
+# Note that all fields for all items must be filled in, unless you omit
+# the entire section. For example, you cannot omit 'type' from an object in
+# the 'base_os_files' section; you must put the word "Other" or "None". Or,
+# if the section is not needed, delete the entire thing.
+
+# Items in 'base_os_files' will be pushed to two locations accessible over the
+# local network
+#   http://@@EDGEBUILDER_IP@@/tftp/images/${PROFILE_NAME}/
+#   (tftp protocol) /images/${PROFILE_NAME}/
+# Both a 'kernel' and 'initrd' must be specified if you plan to use your own.
+# Otherwise, the utility OS will be used.
+
+base_os_files:
+  - url: https://google.com
+    filename: winpe_10.iso
+    type: iso
