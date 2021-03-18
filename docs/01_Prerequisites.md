@@ -57,7 +57,7 @@ MakeWinPEMedia /ISO c:\WinPE_amd64 c:\winpe_10.iso
 
 ## 2) Windows10 ISO
 
-##### Download windows 10 trial ISO from [here](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-10-enterprise)
+##### Download Windows 10 Enterprise trial version from [here](https://www.microsoft.com/en-us/evalcenter/evaluate-windows-10-enterprise)
 
 ##### 1. Mount Windows 10 ISO (on machine where RNI is installed)
 ```

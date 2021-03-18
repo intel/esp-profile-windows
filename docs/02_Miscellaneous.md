@@ -2,7 +2,7 @@
 
 ### 1. sample answer file
 
-If you are using Windows Enterprise 10 trial ISO then copy below content in xml configuration file i.e. unattend.xml and save it in /smbshare/iso directory.
+If you are using Windows 10 Enterprise trial version then copy below content in xml configuration file i.e. unattend.xml and save it in /smbshare/iso directory.
 
 *Before using below sample answer file, please set user account details(like Username, Password, Displayname etc.) in ***UserAccounts***  and ***AutoLogon*** sections.*
 
