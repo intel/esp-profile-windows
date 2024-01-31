@@ -1,6 +1,6 @@
 # Windows 10 Profile
 
-Intended to be used with Retail Node Installer, this Windows 10 OS profile contains a few configurations files that ultimately will install Windows 10 OS to disk provided prerequisites are met.
+Intended to be used with Retail Node Installer, this Windows 10 OS profile contains a few configurations files that ultimately will install Windows 10 OS to disk provided prerequisites are met.  Uses the memdisk method for legacy PXE.  Soon to be released the HTTPBoot method.
 
 ## Target Device Prerequisites
 
